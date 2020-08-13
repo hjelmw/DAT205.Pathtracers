@@ -1,6 +1,6 @@
 
 
-# DAT205-Pathtracer
+# DAT205-Pathtracers
 
 ![alt text](https://github.com/hjelmw/DAT205-Pathtracer/blob/master/img/project_img.png)
 Noisy             | Denoised
@@ -10,12 +10,12 @@ Noisy             | Denoised
 
 # Summary
 Pathtracer implemented as part of a project in the course DAT205 Advanced Computer Graphics at Chalmers University of Technology.
-In the project we first implemented a Monte Carlo pathtracer with a complete BRDF running on the CPU using Embree. This version was later *painstakingly* ported to the Nvidia Optix ray tracing engine. 
-Finally we added image denoising using the Nvidia AI Denoiser, a pretrained neural network for *smoothing* out artifacts common during pathtracing.
+In the project we first implemented a Monte Carlo pathtracer complete with [BRDF](https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function) evaluation running on the CPU using Embree. This version was later *painstakingly* ported to the Nvidia Optix ray tracing engine. 
+Finally we added image denoising using the Nvidia AI Denoiser, a pretrained neural network built for *smoothing* out image artifacts common during pathtracing.
 
 
 # Install
-Not recommended but okay
+Not recommended but if you still want to try here are some pointers (also for future me: Hello future William!)
 
 ## Optix
 If you want to run the project yourself the easiest way for the Optix version is probably the following
