@@ -9,7 +9,7 @@ Noisy             | Denoised
 
 
 # Summary
-Pathtracer implemented as part of a project in the course DAT205 Advanced Computer Graphics at Chalmers University of Technology.
+Pathtracer implemented together with [@Type-0](https://github.com/type-o) in the course DAT205 Advanced Computer Graphics at Chalmers University of Technology.
 In the project we first implemented a Monte Carlo pathtracer complete with [BRDF](https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function) evaluation running on the CPU using Embree. This version was later *painstakingly* ported to the Nvidia Optix ray tracing engine. 
 Finally we added image denoising using the Nvidia AI Denoiser, a pretrained neural network built for *smoothing* out image artifacts common during pathtracing.
 
