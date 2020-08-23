@@ -22,6 +22,7 @@ If you want to run the project yourself the easiest way for the Optix version is
 
 * Start by installing and setting up [Nvidia Optix 6.5](https://raytracing-docs.nvidia.com/optix6/index.html)
 * After setting up optix, Place the folder `src\OptixPathtracer` under `<Path to Optix 6.5>\SDK` 
+* Add scenes folder to `<Path to Optix 6.5>\SDK`
 * Add an entry in the Cmakelist.txt and rebuild. The project **PathtracerGPU** should now appear and be executable along with the other samples for optix
 
 ## Embree
